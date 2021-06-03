@@ -1,0 +1,208 @@
+.survey {
+}
+
+.survey-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.survey__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.survey__item {
+  position: relative;
+  z-index: 1;
+  padding: 24px 0;
+
+  &:first-child {
+    padding-top: 0;
+  }
+  &::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    width: 255px;
+    height: 1px;
+    background-color: #83888f;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    content: "";
+  }
+
+  &:last-child::after {
+    background-color: white;
+  }
+}
+
+.survey__link {
+  display: inline-block;
+  width: 255px;
+  text-decoration: none;
+  font-family: Fraunces, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333d4b;
+  opacity: 0.6;
+}
+
+.survey__link__span {
+  padding-right: 28px;
+  color: #83888f;
+}
+
+// radio part
+.survey-form-wrapper {
+}
+
+.survey-form {
+}
+
+.survey-form__wrapper {
+  margin-bottom: 88px;
+}
+
+.survey-form__heading {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  margin-bottom: 56px;
+  font-family: Fraunces, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #83888f;
+
+  &::after {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    display: inline-block;
+    width: 19px;
+    height: 12px;
+    background-image: url(../../images/create-plan-page/radio-part-icon.png);
+    background-repeat: no-repeat;
+    background-size: 18px 12px;
+    content: "";
+  }
+}
+
+.survey-form-input-wrapper {
+  display: flex;
+}
+
+.survey-form__input-wrapper {
+  margin-right: 23px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.survey-form__input {
+  &:checked + .survey-form__label {
+    background-color: #0e8784;
+  }
+
+  &:checked + .survey-form__label span {
+    color: white;
+  }
+}
+
+.survey-form__label {
+  display: inline-block;
+  width: 228px;
+  height: 250px;
+  padding: 32px 25px;
+  background-color: #f4f1eb;
+  border-radius: 8px;
+}
+
+.survey-form__input-name {
+  display: block;
+  margin: 0;
+  margin-bottom: 24px;
+  font-family: Fraunces, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333d4b;
+}
+
+.survey-form__input-text {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+}
+
+// order-summary
+
+.order-summary-wrapper {
+  width: 730px;
+  margin-bottom: 40px;
+  padding: 31px 64px;
+  background-color: #2c343e;
+}
+
+.order-summary__paragraph {
+  margin: 0;
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.order-summary__blockquote {
+  margin: 0;
+  font-family: Fraunces, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.order-summary__span {
+  color: #0e8784;
+}
+
+.survey-form__button {
+  display: block;
+  width: 220px;
+  margin-bottom: 168px;
+  margin-left: auto;
+  padding: 15px 35px;
+  font-family: Fraunces, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #fefcf7;
+  background-color: #0e8784;
+  border-radius: 6px;
+  border: none;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx) {
+  .survey-form__heading::after {
+    background-image: url(../../images/create-plan-page/radio-part-icon@2x.png);
+  }
+}

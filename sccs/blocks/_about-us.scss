@@ -1,0 +1,41 @@
+.about-us-intro {
+}
+
+.about-us-wrapper {
+  margin-bottom: 168px;
+  padding: 137px 85px;
+  background-image: url(../images/about-us-page/about-us-intro.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.about-us__heading {
+  margin: 0;
+  margin-bottom: 24px;
+  font-family: Fraunces, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #fefcf7;
+}
+
+.about-us__paragraph {
+  margin: 0;
+  width: 445px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx) {
+  .about-us-wrapper {
+    background-image: url(../../images/about-us-page/about-us-intro@2x.jpg);
+  }
+}

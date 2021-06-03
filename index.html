@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- header part -->
+    <header class="header">
+      <div class="container">
+        <a class="site-logo-link" href="#"
+          ><img
+            class="site-logo"
+            src="./images/logo.svg"
+            alt="a logo of cofferoasters displayed two coffe beans"
+            width="236"
+            height="26"
+        /></a>
+
+        <nav class="nav-bar">
+          <ul class="nav-bar__list">
+            <li class="nav-bar__item">
+              <a class="nav-bar__link" href="./index.html">home</a>
+            </li>
+            <li class="nav-bar__item">
+              <a class="nav-bar__link" href="./about-us.html">about us</a>
+            </li>
+            <li class="nav-bar__item">
+              <a class="nav-bar__link" href="./create-plan.html"
+                >create your plan</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <button class="hamburger-btn" type="button">
+          <img
+            class="hamburger-icon"
+            src="./images/hamburger-icon.svg"
+            alt="an icon of hamburger that is hiding nav-bar"
+            width="16"
+            height="15"
+          />
+          <img
+            class="exit-icon"
+            src="./images/exit-icon.svg"
+            alt="an icon of hamburger that is hiding nav-bar"
+            width="16"
+            height="15"
+          />
+        </button>
+      </div>
+    </header>
+
+    <!-- main part -->
+    <main class="site-main">
+      <!-- intro part -->
+      <section>
+        <div class="intro">
+          <div class="container">
+            <div class="intro-wrapper">
+              <h1 class="intro__heading">Great coffee made simple.</h1>
+
+              <p class="intro__paragraph">
+                Start your mornings with the world’s best coffees. Try our
+                expertly curated artisan coffees from our best roasters
+                delivered directly to your door, at your schedule.
+              </p>
+
+              <a class="intro__link planning-link" href="#">Create your plan</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- collection part -->
+      <section class="collection">
+        <div class="container container-small">
+          <h2 class="visually-hidden">Our collection</h2>
+          <ul class="collection__list">
+            <li class="collection__item">
+              <img
+                class="collection__image"
+                srcset="
+                  ./images/collection-part/gran-expresso.png    1x,
+                  ./images/collection-part/gran-expresso@2x.png 2x
+                "
+                src="./images/collection-part/gran-expresso.png"
+                alt="a photo of a packet of coffee with a name gran expresso on it"
+                width="255"
+                height="193"
+              />
+              <div class="item-info-wrapper">
+                <h3 class="collection__heading">Gran Espresso</h3>
+
+                <p class="collection__paragraph">
+                  Light and flavorful blend with cocoa and black pepper for an
+                  intense experience.
+                </p>
+              </div>
+            </li>
+
+            <li class="collection__item">
+              <img
+                class="collection__image"
+                src="./images/collection-part/planalto.png"
+                srcset="
+                  ./images/collection-part/planalto.png    1x,
+                  ./images/collection-part/planalto@2x.png 2x
+                "
+                alt="a photo of a packet of coffee with a name planalto on it"
+                width="255"
+                height="193"
+              />
+              <div class="item-info-wrapper">
+                <h3 class="collection__heading">Planalto</h3>
+
+                <p class="collection__paragraph">
+                  Brazilian dark roast with rich and velvety body, and hints of
+                  fruits and nuts.
+                </p>
+              </div>
+            </li>
+
+            <li class="collection__item">
+              <img
+                class="collection__image"
+                src="./images/collection-part/piccollo.png"
+                srcset="
+                  ./images/collection-part/piccollo.png    1x,
+                  ./images/collection-part/piccollo@2x.png 2x
+                "
+                alt="a photo of a packet of coffee with a name gran Picollo on it"
+                width="255"
+                height="193"
+              />
+              <div class="item-info-wrapper">
+                <h3 class="collection__heading">Piccollo</h3>
+
+                <p class="collection__paragraph">
+                  Mild and smooth blend featuring notes of toasted almond and
+                  dried cherry.
+                </p>
+              </div>
+            </li>
+
+            <li class="collection__item">
+              <img
+                class="collection__image"
+                src="./images/collection-part/danche.png"
+                srcset="
+                  ./images/collection-part/danche.png    1x,
+                  ./images/collection-part/danche@2x.png 2x
+                "
+                alt="a photo of a packet of coffee with a name gran Danche on it"
+                width="235"
+                height="177"
+              />
+              <div class="item-info-wrapper">
+                <h3 class="collection__heading">Danche</h3>
+
+                <p class="collection__paragraph">
+                  Ethiopian hand-harvested blend densely packed with vibrant
+                  fruit notes.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- features part -->
+      <section class="features">
+        <div class="container">
+          <div class="features-wrapper">
+            <h2 class="features__heading">Why choose us?</h2>
+
+            <p class="features__paragraph">
+              A large part of our role is choosing which particular coffees will
+              be featured in our range. This means working closely with the best
+              coffee growers to give you a more impactful experience on every
+              level.
+            </p>
+
+            <ul class="features__list">
+              <li class="features__item quality">
+                <div class="features__item__info">
+                  <h3 class="features__item__heading">Best quality</h3>
+
+                  <p class="features__item__paragraph">
+                    Discover an endless variety of the world’s best artisan
+                    coffee from each of our roasters.
+                  </p>
+                </div>
+              </li>
+
+              <li class="features__item benefits">
+                <div class="features__item__info">
+                  <h3 class="features__item__heading">Exclusive benefits</h3>
+
+                  <p class="features__item__paragraph">
+                    Special offers and swag when you subscribe, including 30%
+                    off your first shipment.
+                  </p>
+                </div>
+              </li>
+
+              <li class="features__item shipping">
+                <div class="features__item__info">
+                  <h3 class="features__item__heading">Free shipping</h3>
+
+                  <p class="features__item__paragraph">
+                    We cover the cost and coffee is delivered fast. Peak
+                    freshness: guaranteed.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- planning part -->
+      <section class="planning">
+        <div class="container container-small">
+          <div class="planning-wrapper">
+            <h2 class="planning__heading">How it works</h2>
+
+            <ol class="planning__list">
+              <li class="planning__item">
+                <span class="planning__item__span">01</span>
+
+                <h3 class="planning__item__heading">Pick your coffee</h3>
+
+                <p class="planning__item__paragraph">
+                  Select from our evolving range of artisan coffees. Our beans
+                  are ethically sourced and we pay fair prices for them. There
+                  are new coffees in all profiles every month for you to try
+                  out.
+                </p>
+              </li>
+
+              <li class="planning__item">
+                <span class="planning__item__span">02</span>
+
+                <h3 class="planning__item__heading">Choose the frequency</h3>
+
+                <p class="planning__item__paragraph">
+                  Customize your order frequency, quantity, even your roast
+                  style and grind type. Pause, skip or cancel your subscription
+                  with no commitment through our online portal.
+                </p>
+              </li>
+
+              <li class="planning__item">
+                <span class="planning__item__span">03</span>
+
+                <h3 class="planning__item__heading">Receive and enjoy!</h3>
+
+                <p class="planning__item__paragraph">
+                  We ship your package within 48 hours, freshly roasted. Sit
+                  back and enjoy award-winning world-class coffees curated to
+                  provide a distinct tasting experience.
+                </p>
+              </li>
+            </ol>
+
+            <a class="planning-link" href="#">Create your plan</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer part -->
+    <footer class="footer">
+      <div class="container container-small">
+        <div class="footer-wrapper">
+          <a class="footer-logo-link" href="#">
+            <img
+              class="footer-site-logo"
+              src="./images/footer-logo.svg"
+              alt="a logo of cofferoasters displayed two coffe beans"
+              width="236"
+              height="26"
+            />
+          </a>
+
+          <nav class="footer__nav-bar">
+            <ul class="footer__nav-bar__list">
+              <li class="footer__nav-bar__item">
+                <a class="footer__nav-bar__link" href="./index.html">home</a>
+              </li>
+              <li class="footer__nav-bar__item">
+                <a class="footer__nav-bar__link" href="./about-us.html"
+                  >about us</a
+                >
+              </li>
+              <li class="footer__nav-bar__item">
+                <a class="footer__nav-bar__link" href="./create-plan.html"
+                  >create your plan</a
+                >
+              </li>
+            </ul>
+          </nav>
+
+          <ul class="footer__social-list">
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#"
+                ><img
+                  class="footer__social-logo"
+                  src="./images/footer-part/facebook.svg"
+                  alt="a logo of Facebook"
+                  width="24"
+                  height="24"
+              /></a>
+            </li>
+
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#"
+                ><img
+                  class="footer__social-logo"
+                  src="./images/footer-part/twitter.svg"
+                  alt="a logo of Twitter"
+                  width="24"
+                  height="20"
+              /></a>
+            </li>
+
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#"
+                ><img
+                  class="footer__social-logo"
+                  src="./images/footer-part/instagram.svg"
+                  alt="a logo of Instagram"
+                  width="24"
+                  height="24"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- footer container -->
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>

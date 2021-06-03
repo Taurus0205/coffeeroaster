@@ -1,0 +1,118 @@
+.intro {
+}
+
+.intro-wrapper {
+  margin-bottom: 136px;
+  padding: 117px 0;
+  padding-left: 85px;
+  background-image: url(../images/intro-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  border-radius: 10px;
+}
+
+.intro__heading {
+  width: 100%;
+  max-width: 493px;
+  margin: 0;
+  margin-bottom: 32px;
+  padding: 0;
+  font-family: Fraunces, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fefcf7;
+}
+
+.intro__paragraph {
+  width: 100%;
+  max-width: 400px;
+  margin: 0;
+  margin-bottom: 56px;
+  padding: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.intro__link {
+}
+
+.planning-link {
+  display: inline-block;
+  padding: 15px 31px;
+  font-family: Fraunces, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-decoration: none;
+  text-align: center;
+  color: #fefcf7;
+  background: #0e8784;
+  border-radius: 6px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx) {
+  .intro-wrapper {
+    background-image: url(../images/intro-background@2x.jpg);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .intro-wrapper {
+    margin-bottom: 144px;
+    padding: 104px 58px;
+  }
+  .intro__heading {
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 24px;
+  }
+
+  .intro__paragraph {
+    margin-bottom: 40px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .intro-wrapper {
+    margin-bottom: 120px;
+    padding: 100px 24px;
+  }
+  .intro__heading {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .intro__paragraph {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .planning-link {
+    display: block;
+    margin: 0 auto;
+    width: 217px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .intro__heading {
+    font-size: 32px;
+    line-height: 32px;
+  }
+}

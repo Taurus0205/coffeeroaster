@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- header part -->
+    <header class="header">
+      <div class="container">
+        <a class="site-logo-link" href="#"
+          ><img
+            class="site-logo"
+            src="./images/logo.svg"
+            alt="a logo of cofferoasters displayed two coffe beans"
+            width="236"
+            height="26"
+        /></a>
+
+        <nav class="nav-bar">
+          <ul class="nav-bar__list">
+            <li class="nav-bar__item">
+              <a class="nav-bar__link" href="./index.html">home</a>
+            </li>
+            <li class="nav-bar__item">
+              <a class="nav-bar__link" href="./about-us.html">about us</a>
+            </li>
+            <li class="nav-bar__item">
+              <a class="nav-bar__link" href="/create-plan.html"
+                >create your plan</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- main part -->
+    <main class="site-main">
+      <!-- about us part -->
+      <section class="create-plan-intro">
+        <div class="container">
+          <div class="create-plan-wrapper">
+            <h2 class="create-plan__heading">Create a plan</h2>
+
+            <p class="create-plan__paragraph">
+              Build a subscription plan that best fits your needs. We offer an
+              assortment of the best artisan coffees from around the globe
+              delivered fresh to your door.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- planning part -->
+      <section class="create-planning">
+        <div class="container">
+          <div class="create-planning-wrapper">
+            <ol class="create-planning__list">
+              <li class="create-planning__item">
+                <span class="create-planning__item__span">01</span>
+
+                <h3 class="create-planning__item__heading">Pick your coffee</h3>
+
+                <p class="create-planning__item__paragraph">
+                  Select from our evolving range of artisan coffees. Our beans
+                  are ethically sourced and we pay fair prices for them. There
+                  are new coffees in all profiles every month for you to try
+                  out.
+                </p>
+              </li>
+
+              <li class="create-planning__item">
+                <span class="create-planning__item__span">02</span>
+
+                <h3 class="create-planning__item__heading">
+                  Choose the frequency
+                </h3>
+
+                <p class="create-planning__item__paragraph">
+                  Customize your order frequency, quantity, even your roast
+                  style and grind type. Pause, skip or cancel your subscription
+                  with no commitment through our online portal.
+                </p>
+              </li>
+
+              <li class="create-planning__item">
+                <span class="create-planning__item__span">03</span>
+
+                <h3 class="create-planning__item__heading">
+                  Receive and enjoy!
+                </h3>
+
+                <p class="create-planning__item__paragraph">
+                  We ship your package within 48 hours, freshly roasted. Sit
+                  back and enjoy award-winning world-class coffees curated to
+                  provide a distinct tasting experience.
+                </p>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <!-- survey part -->
+      <section class="survey">
+        <div class="container">
+          <div class="survey-wrapper">
+            <ol class="survey__list">
+              <li class="survey__item">
+                <a class="survey__link" href="#preferences"
+                  ><span class="survey__link__span">01</span>Preferences</a
+                >
+              </li>
+
+              <li class="survey__item">
+                <a class="survey__link" href="#bean-type"
+                  ><span class="survey__link__span">02</span>Bean Type</a
+                >
+              </li>
+
+              <li class="survey__item">
+                <a class="survey__link" href="#quantity"
+                  ><span class="survey__link__span">03</span>Quantity</a
+                >
+              </li>
+
+              <li class="survey__item">
+                <a class="survey__link" href="#grind-option"
+                  ><span class="survey__link__span">04</span>Grind Option</a
+                >
+              </li>
+
+              <li class="survey__item">
+                <a class="survey__link" href="#deliveries"
+                  ><span class="survey__link__span">05</span>Deliveries</a
+                >
+              </li>
+            </ol>
+
+            <!-- survey__checkbox part -->
+            <div class="survey-form-wrapper">
+              <form class="survey-form">
+                <!-- how do you drink your coffee -->
+                <div class="survey-form__wrapper" id="preferences">
+                  <h2 class="survey-form__heading">
+                    How do you drink your coffee?
+                  </h2>
+                  <div class="survey-form-input-wrapper">
+                    <div class="survey-form__input-wrapper">
+                      <input
+                        class="survey-form__input visually-hidden"
+                        type="radio"
+                        name="how-drink_choice"
+                        value="capsule"
+                        id="capsule"
+                      />
+                      <label class="survey-form__label" for="capsule">
+                        <span class="survey-form__input-name">Capsule</span>
+                        <span class="survey-form__input-text"
+                          >Compatible with Nespresso systems and similar
+                          brewers</span
+                        >
+                      </label>
+                    </div>
+
+                    <div class="survey-form__input-wrapper">
+                      <input
+                        class="survey-form__input visually-hidden"
+                        type="radio"
+                        name="how-drink_choice"
+                        value="filter"
+                        id="filter"
+                      />
+                      <label class="survey-form__label" for="filter">
+                        <span class="survey-form__input-name">Filter</span>
+                        <span class="survey-form__input-text"
+                          >For pour over or drip methods like Aeropress, Chemex,
+                          and V60</span
+                        >
+                      </label>
+                    </div>
+
+                    <div class="survey-form__input-wrapper">
+                      <input
+                        class="survey-form__input visually-hidden"
+                        type="radio"
+                        name="how-drink_choice"
+                        value="espresso"
+                        id="espresso"
+                      />
+                      <label class="survey-form__label" for="espresso">
+                        <span class="survey-form__input-name">Espresso</span>
+                        <span class="survey-form__input-text"
+                          >Dense and finely ground beans for an intense,
+                          flavorful experience</span
+                        >
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <!-- what type of coffee? -->
+                <div class="survey-form__wrapper" id="bean-type">
+                  <h2 class="survey-form__heading">What type of coffee?</h2>
+                  <div class="survey-form-input-wrapper">
+                    <div class="survey-form__input-wrapper">
+                      <input
+                        class="survey-form__input visually-hidden"
+                        type="radio"
+                        name="what-type_choice"
+                        value="single-origin"
+                        id="single-origin"
+                      />
+                      <label class="survey-form__label" for="single-origin">
+                        <span class="survey-form__input-name"
+                          >Single Origin</span
+                        >
+                        <span class="survey-form__input-text"
+                          >Distinct, high quality coffee from a specific
+                          family-owned farm</span
+                        >
+                      </label>
+                    </div>
+
+                    <div class="survey-form__input-wrapper">
+                      <input
+                        class="survey-form__input visually-hidden"
+                        type="radio"
+                        name="what-type_choice"
+                        value="decaf"
+                        id="decaf"
+                      />
+                      <label class="survey-form__label" for="decaf">
+                        <span class="survey-form__input-name">Decaf</span>
+                        <span class="survey-form__input-text"
+                          >Just like regular coffee, except the caffeine has
+                          been removed</span
+                        >
+                      </label>
+                    </div>
+
+                    <div class="survey-form__input-wrapper">
+                      <input
+                        class="survey-form__input visually-hidden"
+                        type="radio"
+                        name="what-type_choice"
+                        value="blended"
+                        id="blended"
+                      />
+                      <label class="survey-form__label" for="blended">
+                        <span class="survey-form__input-name">Blended</span>
+                        <span class="survey-form__input-text"
+                          >Combination of two or three dark roasted beans of
+                          organic coffees</span
+                        >
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <!-- how much would you like -->
+                <div class="survey-form__wrapper" id="quantity">
+                  <h2 class="survey-form__heading">How much would you like?</h2>
+                  <div class="survey-form-input-wrapper">
+                    <div class="survey-form__input-wrapper">
+                      <input
+                        class="survey-form__input visually-hidden"
+                        type="radio"
+                        name="how-much_choice"
+                        value="250g"
+                        id="250g"
+                      />
+                      <label class="survey-form__label" for="250g">
+                        <span class="survey-form__input-name">250g</span>
+                        <span class="survey-form__input-text"
+                          >Perfect for the solo drinker. Yields about 12
+                          delicious cups.</span
+                        >
+                      </label>
+                    </div>
+
+                    <div class="survey-form__input-wrapper">
+                      <input
+                        class="survey-form__input visually-hidden"
+                        type="radio"
+                        name="how-much_choice"
+                        value="500g"
+                        id="500g"
+                      />
+                      <label class="survey-form__label" for="500g">
+                        <span class="survey-form__input-name">500g</span>
+                        <span class="survey-form__input-text"
+                          >Perfect option for a couple. Yields about 40
+                          delectable cups.</span
+                        >
+                      </label>
+                    </div>
+
+                    <div class="survey-form__input-wrapper">
+                      <input
+                        class="survey-form__input visually-hidden"
+                        type="radio"
+                        name="how-much_choice"
+                        value="1000g"
+                        id="1000g"
+                      />
+                      <label class="survey-form__label" for="1000g">
+                        <span class="survey-form__input-name">1000g</span>
+                        <span class="survey-form__input-text"
+                          >Perfect for offices and events. Yields about 90
+                          delightful cups.</span
+                        >
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <!-- want us to grind them -->
+                <div class="survey-form__wrapper" id="grind-option">
+                  <h2 class="survey-form__heading">Want us to grind them?</h2>
+                  <div class="survey-form-input-wrapper">
+                    <div class="survey-form__input-wrapper">
+                      <input
+                        class="survey-form__input visually-hidden"
+                        type="radio"
+                        name="want-to-grind_choice"
+                        value="wholebean"
+                        id="wholebean"
+                      />
+                      <label class="survey-form__label" for="wholebean">
+                        <span class="survey-form__input-name">Wholebean</span>
+                        <span class="survey-form__input-text"
+                          >Best choice if you cherish the full sensory
+                          experience</span
+                        >
+                      </label>
+                    </div>
+
+                    <div class="survey-form__input-wrapper">
+                      <input
+                        class="survey-form__input visually-hidden"
+                        type="radio"
+                        name="want-to-grind_choice"
+                        value="filter-grind"
+                        id="filter-grind"
+                      />
+                      <label class="survey-form__label" for="filter-grind">
+                        <span class="survey-form__input-name">Filter</span>
+                        <span class="survey-form__input-text"
+                          >For drip or pour-over coffee methods such as V60 or
+                          Aeropress</span
+                        >
+                      </label>
+                    </div>
+
+                    <div class="survey-form__input-wrapper">
+                      <input
+                        class="survey-form__input visually-hidden"
+                        type="radio"
+                        name="want-to-grind_choice"
+                        value="cafetiere"
+                        id="cafetiere"
+                      />
+                      <label class="survey-form__label" for="cafetiere">
+                        <span class="survey-form__input-name">Cafetiére</span>
+                        <span class="survey-form__input-text"
+                          >Course ground beans specially suited for french press
+                          coffee</span
+                        >
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <!-- how often should we deliver?-->
+                <div class="survey-form__wrapper" id="deliveries">
+                  <h2 class="survey-form__heading">
+                    How often should we deliver?
+                  </h2>
+                  <div class="survey-form-input-wrapper">
+                    <div class="survey-form__input-wrapper">
+                      <input
+                        class="survey-form__input visually-hidden"
+                        type="radio"
+                        name="how-often_choice"
+                        value="every-week"
+                        id="every-week"
+                      />
+                      <label class="survey-form__label" for="every-week">
+                        <span class="survey-form__input-name">Every week</span>
+                        <span class="survey-form__input-text"
+                          >$7.20 per shipment. Includes free first-class
+                          shipping.</span
+                        >
+                      </label>
+                    </div>
+
+                    <div class="survey-form__input-wrapper">
+                      <input
+                        class="survey-form__input visually-hidden"
+                        type="radio"
+                        name="how-often_choice"
+                        value="every-two-weeks"
+                        id="every-two-weeks"
+                      />
+                      <label class="survey-form__label" for="every-two-weeks">
+                        <span class="survey-form__input-name"
+                          >Every 2 weeks</span
+                        >
+                        <span class="survey-form__input-text"
+                          >$9.60 per shipment. Includes free priority
+                          shipping.</span
+                        >
+                      </label>
+                    </div>
+
+                    <div class="survey-form__input-wrapper">
+                      <input
+                        class="survey-form__input visually-hidden"
+                        type="radio"
+                        name="how-often_choice"
+                        value="every-month"
+                        id="every-month"
+                      />
+                      <label class="survey-form__label" for="every-month">
+                        <span class="survey-form__input-name">Every month</span>
+                        <span class="survey-form__input-text"
+                          >$12.00 per shipment. Includes free priority
+                          shipping.</span
+                        >
+                      </label>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- order-summary -->
+                <div class="order-summary-wrapper">
+                  <p class="order-summary__paragraph">Order Summary</p>
+
+                  <blockquote class="order-summary__blockquote">
+                    “I drink my coffee as
+                    <span class="order-summary__span">Filter</span> , with a
+                    <span class="order-summary__span">Decaf</span>
+                    type of bean.
+                    <span class="order-summary__span">250g</span> ground ala
+                    <span class="order-summary__span">Cafetiére</span> , sent to
+                    me <span class="order-summary__span">Every Week</span> .”
+                  </blockquote>
+                </div>
+
+                <button class="survey-form__button" type="submit">
+                  Create my plan!
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer part -->
+    <footer class="footer">
+      <div class="container container-small">
+        <div class="footer-wrapper">
+          <a class="site-logo-link" href="#">
+            <img
+              class="site-logo"
+              src="./images/footer-logo.svg"
+              alt="a logo of cofferoasters displayed two coffe beans"
+              width="236"
+              height="26"
+            />
+          </a>
+
+          <nav class="nav-bar footer__nav-bar">
+            <ul class="nav-bar__list footer__nav-bar__list">
+              <li class="nav-bar__item">
+                <a
+                  class="nav-bar__link footer__nav-bar__link"
+                  href="./index.html"
+                  >home</a
+                >
+              </li>
+              <li class="nav-bar__item">
+                <a
+                  class="nav-bar__link footer__nav-bar__link"
+                  href="./about-us.html"
+                  >about us</a
+                >
+              </li>
+              <li class="nav-bar__item">
+                <a
+                  class="nav-bar__link footer__nav-bar__link"
+                  href="./create-plan.html"
+                  >create your plan</a
+                >
+              </li>
+            </ul>
+          </nav>
+
+          <ul class="footer__social-list">
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#"
+                ><img
+                  class="footer__social-logo"
+                  src="./images/footer-part/facebook.svg"
+                  alt="a logo of Facebook"
+                  width="24"
+                  height="24"
+              /></a>
+            </li>
+
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#"
+                ><img
+                  class="footer__social-logo"
+                  src="./images/footer-part/twitter.svg"
+                  alt="a logo of Twitter"
+                  width="24"
+                  height="20"
+              /></a>
+            </li>
+
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#"
+                ><img
+                  class="footer__social-logo"
+                  src="./images/footer-part/instagram.svg"
+                  alt="a logo of Instagram"
+                  width="24"
+                  height="24"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- footer container -->
+    </footer>
+  </body>
+</html>

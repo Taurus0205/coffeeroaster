@@ -1,0 +1,76 @@
+.headquarters {
+}
+
+.headquarters-wrapper {
+  margin-bottom: 168px;
+}
+
+.headquarters__heading {
+  margin: 0;
+  margin-bottom: 72px;
+  font-family: Fraunces, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
+}
+
+.headquarters__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.headquarters__item {
+  width: 285px;
+  margin-right: 95px;
+
+  &::before {
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    margin-bottom: 45px;
+    background-repeat: no-repeat;
+    content: "";
+  }
+}
+
+.uk::before {
+  background-image: url(../images/about-us-page/uk.svg);
+  background-size: 41px 49px;
+}
+
+.canada::before {
+  background-image: url(../images/about-us-page/canada.svg);
+  background-size: 52px 50px;
+}
+
+.australia::before {
+  background-image: url(../images/about-us-page/australia.svg);
+  background-size: 49px 44px;
+}
+
+.headquarters__item__heading {
+  margin: 0;
+  margin-bottom: 24px;
+  font-family: Fraunces, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333d4b;
+}
+
+.headquarters__item__address-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.headquarters__item__address-item {
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+}

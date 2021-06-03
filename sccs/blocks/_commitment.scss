@@ -1,0 +1,55 @@
+.commitment {
+}
+
+.commitment-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 244px;
+  padding: 0 85px;
+
+  &::before {
+    display: inline-block;
+    width: 445px;
+    height: 520px;
+    background-image: url(../images/about-us-page/commitment-part.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+  }
+}
+
+.commitment-info-wrapper {
+  width: 540px;
+}
+
+.commitment-info__heading {
+  margin: 0;
+  margin-bottom: 32px;
+  font-family: Fraunces, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333d4b;
+}
+
+.commitment-info__paragraph {
+  margin: 0;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx) {
+  .commitment-wrapper::before {
+    background-image: url(../images/about-us-page/commitment-part@2x.jpg);
+  }
+}
