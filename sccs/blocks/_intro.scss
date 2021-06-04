@@ -15,9 +15,7 @@
 .intro__heading {
   width: 100%;
   max-width: 493px;
-  margin: 0;
-  margin-bottom: 32px;
-  padding: 0;
+  @include mar-pad(32px);
   font-family: Fraunces, "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: 900;
@@ -29,9 +27,7 @@
 .intro__paragraph {
   width: 100%;
   max-width: 400px;
-  margin: 0;
-  margin-bottom: 56px;
-  padding: 0;
+  @include mar-pad(56px);
   font-style: normal;
   font-weight: normal;
   font-size: 16px;

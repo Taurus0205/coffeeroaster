@@ -35,8 +35,25 @@
             </li>
           </ul>
         </nav>
+        <button class="hamburger-btn" type="button">
+          <img
+            class="hamburger-icon"
+            src="./images/hamburger-icon.svg"
+            alt="an icon of hamburger that is hiding nav-bar"
+            width="16"
+            height="15"
+          />
+          <img
+            class="exit-icon"
+            src="./images/exit-icon.svg"
+            alt="an icon of hamburger that is hiding nav-bar"
+            width="16"
+            height="15"
+          />
+        </button>
       </div>
     </header>
+
 
     <!-- main part -->
     <main class="site-main">
@@ -60,6 +77,13 @@
       <section class="commitment">
         <div class="container">
           <div class="commitment-wrapper">
+
+            <picture>
+              <!-- Webp -->
+              <source type="image/webp" media="(max-width: 425px)" srcset="./images/about-us-page/commitment/commitment-moblie.webp 1x, ./images/about-us-page/commitment/commitment-moblie@2x.webp 2x">
+            </picture>
+
+            <img class="commitment__img" src="./images/about-us-page/commitment/commitment-part.jpg" alt="photo of a man making coffee" width="445" height="520">
             <div class="commitment-info-wrapper">
               <h2 class="commitment-info__heading">Our commitment</h2>
 
@@ -83,7 +107,7 @@
       </section>
 
       <!-- quality part -->
-      <section class="quality">
+      <!-- <section class="quality">
         <div class="container">
           <div class="quality-wrapper">
             <div class="quality-info-wrapper">
@@ -100,10 +124,10 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- headquartes-part -->
-      <section class="headquarters">
+      <!-- <section class="headquarters">
         <div class="container container-small">
           <div class="headquarters-wrapper">
             <h2 class="headquarters__heading">Our headquarters</h2>
@@ -158,14 +182,14 @@
           </div>
         </div>
       </section>
-    </main>
+    </main> -->
     <!-- footer part -->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container container-small">
         <div class="footer-wrapper">
-          <a class="site-logo-link" href="#">
+          <a class="footer-logo-link" href="#">
             <img
-              class="site-logo"
+              class="footer-site-logo"
               src="./images/footer-logo.svg"
               alt="a logo of cofferoasters displayed two coffe beans"
               width="236"
@@ -173,18 +197,18 @@
             />
           </a>
 
-          <nav class="nav-bar footer__nav-bar">
-            <ul class="nav-bar__list footer__nav-bar__list">
-              <li class="nav-bar__item">
-                <a class="nav-bar__link footer__nav-bar__link" href="/index.html">home</a>
+          <nav class="footer__nav-bar">
+            <ul class="footer__nav-bar__list">
+              <li class="footer__nav-bar__item">
+                <a class="footer__nav-bar__link" href="./index.html">home</a>
               </li>
-              <li class="nav-bar__item">
-                <a class="nav-bar__link footer__nav-bar__link" href="./about-us.html"
+              <li class="footer__nav-bar__item">
+                <a class="footer__nav-bar__link" href="./about-us.html"
                   >about us</a
                 >
               </li>
-              <li class="nav-bar__item">
-                <a class="nav-bar__link footer__nav-bar__link" href="./create-plan.html"
+              <li class="footer__nav-bar__item">
+                <a class="footer__nav-bar__link" href="./create-plan.html"
                   >create your plan</a
                 >
               </li>
@@ -226,8 +250,9 @@
             </li>
           </ul>
         </div>
-      </div>
+      </div> -->
       <!-- footer container -->
     </footer>
+    <script src="./main.js"></script>
   </body>
 </html>
