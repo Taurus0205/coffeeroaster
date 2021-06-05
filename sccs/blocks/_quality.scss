@@ -30,7 +30,8 @@
 }
 
 .quality-info-wrapper {
-  width: 540px;
+  width: 100%;
+  max-width: 540px;
 }
 
 .quality-info__heading {
@@ -61,5 +62,137 @@
   only screen and (min-resolution: 2dppx) {
   .quality-wrapper::after {
     background-image: url(../images/about-us-page/quality-part@2x.jpg);
+  }
+}
+
+@media only screen and (max-width: 1201px) {
+  .quality-wrapper {
+    margin-bottom: 144px;
+    padding-left: 60px;
+    &::after {
+      right: 60px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1151px) {
+  .quality-wrapper {
+    padding-left: 50px;
+    padding-top: 35px;
+    padding-bottom: 100px;
+    &::after {
+      right: 30px;
+    }
+  }
+
+  .quality-info-wrapper {
+    max-width: 400px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1101px) {
+  .quality-wrapper {
+    padding-top: 224px;
+    padding-right: 74px;
+    padding-bottom: 67px;
+    padding-left: 74px;
+    &::after {
+      bottom: 100%;
+      left: 50%;
+      transform: translate(-50%, 50%);
+      width: 573px;
+      height: 320px;
+      background-image: url(../images/about-us-page/quality-tablet.jpg);
+    }
+  }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+    .quality-wrapper::after {
+      background-image: url(../images/about-us-page/quality-tablet@2x.jpg);
+    }
+  }
+
+  .quality-info-wrapper {
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+  }
+
+  .quality-info__heading {
+    margin-bottom: 24px;
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .quality-info__paragraph {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (max-width: 631px) {
+  .quality-wrapper {
+    padding-top: 142px;
+    padding-right: 24px;
+    padding-bottom: 61px;
+    padding-left: 24px;
+    &::after {
+      bottom: 100%;
+      left: 50%;
+      transform: translate(-50%, 50%);
+      width: 279px;
+      height: 156px;
+      background-image: url(../images/about-us-page/quality-tablet.jpg);
+    }
+  }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+    .quality-wrapper::after {
+      background-image: url(../images/about-us-page/quality-tablet@2x.jpg);
+    }
+  }
+
+  .quality-info-wrapper {
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: center;
+  }
+
+  .quality-info__heading {
+    margin-bottom: 24px;
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .quality-info__paragraph {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (max-width: 372px) {
+  .quality-wrapper {
+    padding-top: 100px;
+    padding-right: 15px;
+    padding-bottom: 45px;
+    padding-left: 15px;
+  }
+  .quality-info-wrapper {
+    max-width: 300px;
+  }
+
+  .quality-info__heading {
+    margin-bottom: 15px;
+    font-size: 24px;
+    line-height: 28px;
   }
 }
