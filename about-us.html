@@ -54,7 +54,6 @@
       </div>
     </header>
 
-
     <!-- main part -->
     <main class="site-main">
       <!-- about us part -->
@@ -77,13 +76,60 @@
       <section class="commitment">
         <div class="container">
           <div class="commitment-wrapper">
-
-            <picture>
+            <picture class="commitment__picture">
               <!-- Webp -->
-              <source type="image/webp" media="(max-width: 425px)" srcset="./images/about-us-page/commitment/commitment-moblie.webp 1x, ./images/about-us-page/commitment/commitment-moblie@2x.webp 2x">
+              <source
+                type="image/webp"
+                media="(max-width: 629px)"
+                srcset="
+                  ./images/about-us-page/commitment/commitment-mobile.webp    1x,
+                  ./images/about-us-page/commitment/commitment-mobile@2x.webp 2x
+                "
+              />
+
+              <source
+                type="image/webp"
+                media="(max-width: 810px)"
+                srcset="
+                  ./images/about-us-page/commitment/commitment-tablet.webp    1x,
+                  ./images/about-us-page/commitment/commitment-tablet@2x.webp 2x
+                "
+              />
+
+              <source
+                type="image/webp"
+                srcset="
+                  ./images/about-us-page/commitment/commitment.webp    1x,
+                  ./images/about-us-page/commitment/commitment@2x.webp 2x
+                "
+              />
+
+              <!-- jpeg -->
+              <source
+                media="(max-width: 629px)"
+                srcset="
+                  ./images/about-us-page/commitment/commitment-mobile.jpg    1x,
+                  ./images/about-us-page/commitment/commitment-mobile@2x.jpg 2x
+                "
+              />
+
+              <source
+                media="(max-width: 810px)"
+                srcset="
+                  ./images/about-us-page/commitment/commitment-tablet.jpg    1x,
+                  ./images/about-us-page/commitment/commitment-tablet@2x.jpg 2x
+                "
+              />
+
+              <img
+                class="commitment__img"
+                src="./images/about-us-page/commitment/commitment-part.jpg"
+                alt="photo of a man making coffee"
+                width="445"
+                height="520"
+              />
             </picture>
 
-            <img class="commitment__img" src="./images/about-us-page/commitment/commitment-part.jpg" alt="photo of a man making coffee" width="445" height="520">
             <div class="commitment-info-wrapper">
               <h2 class="commitment-info__heading">Our commitment</h2>
 
@@ -107,7 +153,7 @@
       </section>
 
       <!-- quality part -->
-      <!-- <section class="quality">
+      <section class="quality">
         <div class="container">
           <div class="quality-wrapper">
             <div class="quality-info-wrapper">
@@ -124,10 +170,10 @@
             </div>
           </div>
         </div>
-      </section> -->
+      </section>
 
       <!-- headquartes-part -->
-      <!-- <section class="headquarters">
+      <section class="headquarters">
         <div class="container container-small">
           <div class="headquarters-wrapper">
             <h2 class="headquarters__heading">Our headquarters</h2>
@@ -182,9 +228,9 @@
           </div>
         </div>
       </section>
-    </main> -->
+    </main>
     <!-- footer part -->
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="container container-small">
         <div class="footer-wrapper">
           <a class="footer-logo-link" href="#">
@@ -250,7 +296,7 @@
             </li>
           </ul>
         </div>
-      </div> -->
+      </div>
       <!-- footer container -->
     </footer>
     <script src="./main.js"></script>
